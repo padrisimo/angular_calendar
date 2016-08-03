@@ -42,7 +42,7 @@ var calendario = angular.module('calendario', []);
 
 calendario.controller('yoControlo', function yoControlo($scope){
    
-    $scope.diasMes = []
+    $scope.diasMes = [];
 
     $scope.year = 1983;
 
@@ -54,7 +54,7 @@ calendario.controller('yoControlo', function yoControlo($scope){
 
 		$scope.diasMes = [];
 
-		for(i=0;i<=$scope.num;i++){
+		for(i=0;i<=$scope.num-1;i++){
 
 		  $scope.diasMes.push(i+1);
 		  console.log($scope.diasMes);
