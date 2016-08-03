@@ -1,0 +1,35 @@
+body{
+	padding: 1em;
+	text-align: center;
+	background-color: lightgrey;
+	color:white;
+}
+
+span.dia{
+	width: 100px;
+	height:100px;
+	margin:1em;	
+	display: inline-block;
+	float: left;
+	border: 1px solid lightgray;
+	text-align: left;
+	padding: 4px;
+	font-weight: bold;
+	color: lightgrey;
+	background-color: white;
+}
+
+.left{
+	float:left;
+	width:50%;
+}
+.right{
+	float:right;
+	width:50%;
+}
+
+input[type="number"]{
+	padding:10px;
+	text-align: center;
+	margin-bottom: 2em;
+}
